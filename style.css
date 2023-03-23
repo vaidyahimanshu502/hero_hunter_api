@@ -1,0 +1,103 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(168, 163, 163);
+}
+
+div h2 {
+  color: rgb(219, 219, 236);
+  text-decoration: none;
+  font-weight: 600;
+  background-color: rgb(201, 136, 56);
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+div h2:hover {
+  background-color: rgb(180, 199, 59);
+  color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+#searchHero {
+  width: 300%;
+  height: 3rem;
+  margin-top: 10px;
+  margin-left: -100px;
+
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: black;
+  padding-left: 2%;
+  border-radius: 10px;
+}
+#main-heading {
+  font-size: 48px;
+  font-weight: 900;
+  margin-left: -150px;
+  margin-top: -0.5px;
+  color: white;
+  text-shadow: 8px 8px 15px black, 5px 5px 25px blue, 3px 3px 25px darkblue;
+}
+
+.image-size {
+  width: 200px;
+  height: 250px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 80;
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+ul li {
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  height: 4rem;
+  width: 8rem;
+  outline: none;
+  border: none;
+  background-color: brown;
+  color: white;
+}
+#delFav {
+  color: red;
+  font-size: 25px;
+}
+#delFav:hover {
+  cursor: pointer;
+  background-color: red;
+}
+#addFav:hover {
+  cursor: pointer;
+  background-color: aliceblue;
+}
+#addFav {
+  font-size: 25px;
+  color: lightgray;
+}
+.search-item a {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
